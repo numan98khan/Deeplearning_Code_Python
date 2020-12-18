@@ -1,0 +1,4 @@
+# Function dependencies, for example:
+# package>=version
+
+docker container stop container_name && docker build -t helloworld . && docker run --name container_name --rm -p 8080:8080 -e PORT=8080 helloworld
